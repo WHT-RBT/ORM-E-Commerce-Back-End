@@ -1,5 +1,9 @@
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
+![Github licence](https://img.shields.io/badge/license-MIT-blue)
+
+![HTML](https://img.shields.io/badge/-NODE-orange) ![JS](https://img.shields.io/badge/-JS-yellow) ![Node](https://img.shields.io/badge/-MySQL2-darkgreen)
+![JEST](https://img.shields.io/badge/-SQL-darkred) ![Sequelize](https://img.shields.io/badge/-Sequelize-blue) ![Dotenv](https://img.shields.io/badge/-Dotenv-purple)
 ## Your Task
 
 Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
@@ -16,7 +20,7 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
-## Acceptance Criteria
+## Description
 
 ```md
 GIVEN a functional Express.js API
