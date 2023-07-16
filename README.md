@@ -1,4 +1,4 @@
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
+# Object-Relational Mapping (ORM): E-Commerce Back End
 
 ![Github licence](https://img.shields.io/badge/license-MIT-blue)
 
