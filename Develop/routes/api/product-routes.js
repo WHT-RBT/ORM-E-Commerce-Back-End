@@ -61,8 +61,7 @@ router.post('/', async (req, res) => {
       if (req.body.tagIds.length) {
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
           return {
-            product_id: product.id,
-            tag_id,
+            product_id: product.id, tag_id,
           };
         });
         return ProductTag.bulkCreate(productTagIdArr);
@@ -129,7 +128,6 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: 'No product was found with this id!' });
       return;
     }
-
     res.status(200).json(productData);
   } catch (err) {
     res.status(500).json({ error: 'Internal server error' });
