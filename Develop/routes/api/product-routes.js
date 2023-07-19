@@ -69,7 +69,7 @@ router.post('/', async (req, res) => {
       }
       // if no product tags, just respond
       if (!product.tags || product.tags.length === 0) {
-        res.status(400).json({ error: 'No tags were found for the product' });
+        res.status(400).json({ error: 'No tags were found for that product' });
         return;
       }
 
